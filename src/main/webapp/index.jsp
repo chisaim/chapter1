@@ -14,7 +14,10 @@
 <a href="/helloController.do">根据类名访问HelloController</a>
 <br/>
 <a href="/user/list.do">查询</a><br/>
-<a href="/user/add.do">添加</a><br/>
+<form action="/user/add.do" method="post">
+    <input name="username" type="text">
+    <input type="submit" value="submit">
+</form>
 <a href="/user/update.do">修改</a>
 </body>
 </html>
