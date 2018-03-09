@@ -12,6 +12,6 @@
 </head>
 <body>
 <h2>This is Add Page</h2>
-<h2>${username}</h2>
+<h2>${userid}-----${username}-----${usertime}------${submittype}</h2>
 </body>
 </html>
